@@ -1,0 +1,6 @@
+name = str(input("please enter your name:"))
+lastname = str(input("please enter your lastname:"))
+age = int(input("please enter your age:"))
+email = (input("please enter your email:"))
+addres = (input("please enter your addres:"))
+print(name,lastname,age,email,addres)

@@ -1,0 +1,3 @@
+age = int(input("please enter you age"))
+
+print (age > 18 and age < 20 )

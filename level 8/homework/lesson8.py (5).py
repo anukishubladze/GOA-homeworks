@@ -1,0 +1,6 @@
+print(5 > 4)
+print(10 < 20)
+print(9 <= 7)
+print(19 >= 15)
+print(12 != 14)
+print(20 == 20)

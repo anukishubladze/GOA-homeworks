@@ -1,0 +1,20 @@
+
+/* style.css */
+
+* {
+    box-sizing: border-box;
+}
+.container{
+    background-color: hsl(0, 13%, 68%);
+    height: 100vh;
+}
+.box{
+    background-color: hsl(230, 19%, 55%);
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+

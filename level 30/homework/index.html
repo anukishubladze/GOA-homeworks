@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .countries-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .country-card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .country-card:hover {
+            transform: scale(1.05);
+        }
+
+        .country-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .country-card h2 {
+            margin: 0;
+            padding: 16px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .country-card p {
+            margin: 0;
+            padding: 0 16px 16px;
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="countries-container">
+        <div class="country-card">
+            <img src="https://via.placeholder.com/300x200?text=France" alt="France">
+            <h2>France</h2>
+            <p>Known for its art, fashion, and cuisine, France is a country in Western Europe with a rich cultural heritage.</p>
+        </div>
+        <div class="country-card">
+            <img src="https://via.placeholder.com/300x200?text=Japan" alt="Japan">
+            <h2>Japan</h2>
+            <p>Japan is an island nation in East Asia known for its technology, culture, and beautiful landscapes.</p>
+        </div>
+        <div class="country-card">
+            <img src="https://via.placeholder.com/300x200?text=Brazil" alt="Brazil">
+            <h2>Brazil</h2>
+            <p>Brazil is the largest country in South America, famous for its carnival, beaches, and vibrant culture.</p>
+        </div>
+    </div>
+</body>
+</html>

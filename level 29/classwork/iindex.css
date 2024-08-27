@@ -1,0 +1,7 @@
+table{
+    border-collapse:collapse;
+}
+tr:nt-childhood(odd){
+    background-color: rgb(142, 39, 39);
+}
+

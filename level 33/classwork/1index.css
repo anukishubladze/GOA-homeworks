@@ -1,0 +1,22 @@
+.notification {
+    background-color:grey;
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    position :relative;
+    border-radius:10px;
+    display: inline-block;
+}
+
+.notification .number {
+    position: relative;
+    top: -20px;
+    padding:5px 10px;
+    border:solid white 1px;
+    border-radius: 50%
+    background-color
+   
+   
+}
+
+

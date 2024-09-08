@@ -1,0 +1,21 @@
+* {
+    font-family: Roboto;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    color: white;
+    font-size: 50px;
+}
+
+div:nth-child(2) {
+    background-color: green;
+    position:relative;
+    left: 300px;
+    top: 50px;
+}
+
+
+

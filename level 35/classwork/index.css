@@ -1,0 +1,24 @@
+* {
+    font-family:roboto;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    width: 900px;
+    height: 900px;
+    border: 5px solid rgb(245, 245, 245);
+    grid-column
+}
+
+.child {
+    background-color: green;
+    border: 2px solid purple;
+}

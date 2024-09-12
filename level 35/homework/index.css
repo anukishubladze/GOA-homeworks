@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    width: 100%;
+    height: 100px; /* Adjust height as needed */
+    display: block;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: rgb(10, 3, 3);
+    color: white;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: rgb(255, 102, 102);
+  }
+  
+  
+  main {
+    background-color: rgb(34, 34, 34);
+    color: white;
+  }
+  
+  aside {
+    background-color: rgb(255, 204, 0);
+  }
+  
+  footer {
+    background-color: rgb(102, 204, 153);
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <!-- styles CSS -->
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header container">
+    <nav class="nav">
+      <figure class="nav-logo">
+        <img src="./images/logo.svg" alt="logo nav" class="nav-logo-img">
+      </figure>
+      <ul class="nav-menu">
+        <li class="nav_menu-li"><a href="#" class="nav_menu-a">Features</a></li>
+        <li class="nav_menu-li"><a href="#" class="nav_menu-a">Team</a></li>
+        <li class="nav_menu-li"><a href="#" class="nav_menu-a">Sign In</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- hero section -->
+  <section class="hero container">
+
+    <figure class="hero-imagen">
+      <img src="./images/illustration-1.svg" alt="illustration 1" class="hero-img">
+    </figure>
+
+    <div class="hero-content">
+      <h1 class="hero-title">All your files in one secure location, accessible anywhere.</h1>
+      <p class="hero-sub">Fylo stores your most important files in one secure location.
+        Access them wherever you need, share and collaborate with friends,
+        family, and co-workers.</p>
+      <div class="hero-email">
+        <input type="email" name="email" id="email" class="hero-input" required placeholder="Enter your email.">
+        <div class="hero-text-error">Please check your email</div>
+        <button class="hero-btn" id="hero-boton">Get Started</button>
+      </div>
+
+    </div>
+
+    <div class="hero-wave"></div>
+  </section>
+
+  <!-- stay section -->
+  <section class="stay container">
+    <figure class="stay-imagen">
+      <img src="./images/illustration-2.svg" alt="illustration 2" class="stay-img">
+    </figure>
+    <div class="stay-content">
+      <h2 class="stay-title">Stay productive, wherever you are</h2>
+      <p class="stay-sub">Never let location be an issue when accessing your files. Fylo has you
+        covered for all of your file storage needs.</p>
+      <p class="stay-sub stay-last">Securely share files and folders with friends, family and
+        colleagues for
+        live collaboration. No email attachments required!</p>
+      <div href="#" class="stay-link">
+        See how Fylo works
+        <img src="./images/icon-arrow.svg" alt="icon arrow" class="stay-icon">
+      </div>
+      <div class="stay-card">
+        <img src="./images/icon-quotes.svg" alt="icon quotes" class="stay-card-quotes">
+        <div class="stay-card-content">
+          <p class="stay-card-p">
+            Fylo has improved our team productivity by an order of magnitude. Since
+            making the switch our team has become a well-oiled collaboration machine.
+          </p>
+        </div>
+        <div class="stay-card-perfil">
+          <img src="./images/avatar-testimonial.jpg" alt="avatar testimonial" class="stay-card-avatar">
+          <div class="stay-card-person">
+            <p class="stay-card-name">Kyle Burton</p>
+            <p class="stay-card-dedica">Founder & CEO, Huddle</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- get section -->
+  <section class="get container">
+    <div class="get-content">
+      <h4 class="get-title">Get early access today</h4>
+      <p class="get-p">It only takes a minute to sign up and our free starter tier is extremely generous.
+        If you have any questions, our support team would be happy to help you.</p>
+    </div>
+    <div class="get-form">
+      <input type="email" name="email" id="get-email" class="get-input" required placeholder="email@example.com">
+      <p class="get-text-error">Please check your email</p>
+      <button class="get-btn" id="get-boton">Get Started For Free</button>
+    </div>
+  </section>
+
+  <!-- footer section -->
+  <footer class="footer container">
+
+    <figure class="footer-imagen">
+      <img src="images/logo-white.svg" alt="logo white" class="footer-img">
+    </figure>
+
+    <div class="foo-concat">
+
+      <div class="footer-contact contact">
+        <div href="#" class="foo-contact">
+          <img src="./images/icon-phone.svg" alt="icon phone" class="contact-icon">
+          Phone: +1-543-123-4567
+        </div>
+        <div href="#" class="foo-contact">
+          <img src="./images/icon-email.svg" alt="icon email" class="contact-icon">
+          example@fylo.com
+        </div>
+      </div>
+
+      <nav class="foo-links">
+        <ul class="foo-menu">
+          <li class="foo-menu-li"><a class="foo-menu-a" href="#">About Us</a></li>
+          <li class="foo-menu-li"><a class="foo-menu-a" href="#">Jobs </a></li>
+          <li class="foo-menu-li"><a class="foo-menu-a" href="#">Press</a></li>
+          <li class="foo-menu-li"><a class="foo-menu-a" href="#">Blog </a></li>
+        </ul>
+      </nav>
+
+      <nav class="foo-links foo-links-dos">
+        <ul class="foo-menu">
+          <li class="foo-menu-li"><a class="foo-menu-a" href="#">Contact Us</a></li>
+          <li class="foo-menu-li"><a class="foo-menu-a" href="#">Terms</a></li>
+          <li class="foo-menu-li"><a class="foo-menu-a" href="#">Privacy</a></li>
+        </ul>
+      </nav>
+
+      <div class="foo-social">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+</head>
+<body>
+    <style>
+        .fourth {
+            font-size: 24px; 
+            text-align: center; 
+        }
+        .color1 {
+            background-color: rgb(96, 159, 180); 
+            color: rgb(241, 234, 234); 
+            padding: 10px;
+        }
+        .color2 {
+            background-color: rgb(174, 22, 144); 
+            color: rgb(231, 221, 221); 
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="first"></h1>
+    <p id="second">hello</p>
+    <div id="third">hi</div> 
+    <div id="fourth">world</div> 
+    <div id="fifth">
+    </div> 
+
+    <script>
+       
+        document.getElementById("first").textContent = "hello,world!";
+
+        
+        document.getElementById("second").style.color = "red";
+
+       
+        var thirdElement = document.getElementById("third");
+        thirdElement.style.color = "blue";
+        thirdElement.style.backgroundColor = "yellow";
+
+        var fourthElement = document.getElementById("fourth");
+        fourthElement.textContent = "text";
+        fourthElement.style.fontSize = "30px"; 
+        fourthElement.style.textAlign = "right"; 
+        document.getElementById("fifth").textContent= "<div class='color1'>first element</div> <div class='color2'>second elemnt</div>" 
+
+        
+       
+    </script>
+
+    
+</body>
+</html>

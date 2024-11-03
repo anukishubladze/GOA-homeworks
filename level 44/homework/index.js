@@ -1,20 +1,19 @@
 function greet() {
     console.log("hi");
 }
-
 greet();
 
 
 
 
 function greet(name) {
-    console.log('hello, ${name}');
+    console.log('hello', 'name');
 }
-greet("lasha"); 
+greet("anuki"); 
 
 
 
-function increaset(number) {
+function increase(number) {
     return number + 1;
 }
 const result = increase(55);

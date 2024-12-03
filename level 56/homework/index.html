@@ -1,0 +1,32 @@
+<!--შევქმნათ ვებსაიტი ამ სამი საფეხურით, პირველ რიგში გამოვიტანოტ ეკრაზე ფორმა პასვორდის და იმეილის შესაქმნელად (სასურველია გამოიყენოთ წინა დავალებაში გაკეთებული პასვორდის იდენტიფიცირება), ღილაკზე დაკლიკებისას მხოლოდ მაშინ გადავიდეს მომხმარებელი საიტზე თუ: 1) იმეილის ველი შევსებულია, პასვორდი ვალიდურია, დამატებული ჩექბოქსი შემოხაზულია. ვებსაიტზე გადასვლისას ამოვარდეს confrim ბოქსი რომელოც გთავაზოთ შავ მოდზე გადასვლას და მომხმარებლის პასუხის მიხედვით საიტის ფერები იცვლება, თვითონ ვებგვერდზე უნდა შეიცავდეს 3-6 რედიო ღილაკს, არჩეული ღილაკის დაკლიკებისას უნდა გამოვიდეს კონკრეტული პროგრამისტის ინფორმაცია (ინფორმაციის ტექსტის გაწერა წინასწარ ხელით მოგიწევთ), და ეს ინფორმაცია უნდა იყოს ლამაზ-სასურველ ყუთურ ფორმატში თავისი ფოტოთი.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <div class="container">
+        <h2>Password Validation</h2>
+
+        <label for="password">Enter password:</label>
+        <input type="text" id="password" placeholder="Send password">
+        <input type="email"placeholder="enter your email">
+        <button id ="validateBtn">validation</button> 
+
+        <div id="validationMessage"></div>
+
+        <button id="generateBtn">Random password</button>
+        <div id="generatePassword"></div>
+        <div id="box"></div>
+        <button id="toggleMode">day/night</button>
+    </div>
+
+    <script src="index.js"></script>
+
+    
+</body>
+</html>

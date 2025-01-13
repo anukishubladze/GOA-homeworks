@@ -1,0 +1,86 @@
+<div class="circle"></div>
+
+<style>
+.circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #90EE90; /* Light green background */
+}
+
+.circle::before, .circle::after {
+    content: '';
+    position: absolute;
+    background: #32CD32; /* Darker green for the cross */
+}
+
+.circle::before {
+    width: 40px;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.circle::after {
+    height: 40px;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Make it circular by adding border-radius */
+.circle, .circle::before, .circle::after {
+    border-radius: 50%;
+}
+</style>
+
+Or using four separate divs for the quarters:
+
+htmlCopy<div class="container">
+    <div class="quarter top-left"></div>
+    <div class="quarter top-right"></div>
+    <div class="quarter bottom-left"></div>
+    <div class="quarter bottom-right"></div>
+</div>
+
+<style>
+.container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #90EE90; /* Light green background */
+    overflow: hidden;
+}
+
+.quarter {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background: #32CD32; /* Darker green for quarters */
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+    border-radius: 100% 0 0 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+    border-radius: 0 100% 0 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 0 100%;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+    border-radius: 0 0 100% 0;
+}
+</style>

@@ -1,5 +1,4 @@
 function isSortedAndHow(arr) {
-    // Check if the array is sorted in ascending order
     if (arr.every((val, i, array) => i === 0 || array[i - 1] <= val)) {
       return "yes, ascending";
     }
@@ -7,7 +6,6 @@ function isSortedAndHow(arr) {
     else if (arr.every((val, i, array) => i === 0 || array[i - 1] >= val)) {
       return "yes, descending";
     }
-    // If neither condition is true, return no
     else {
       return "no";
     }
